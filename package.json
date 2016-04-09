@@ -1,0 +1,29 @@
+{
+  "name": "roll20-logger",
+  "version": "1.0.0",
+  "description": "Logger object for roll20 that can handle tracing all method calls",
+  "main": "./lib/logger.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/symposion/roll20-logger.git"
+  },
+  "author": "lucian@symposion.co.uk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/symposion/roll20-logger/issues"
+  },
+  "homepage": "https://github.com/symposion/roll20-logger#readme",
+  "devDependencies": {
+    "eslint": "^2.7.0",
+    "eslint-config-airbnb": "^6.2.0",
+    "gulp": "^3.9.1",
+    "gulp-eslint": "^2.0.0",
+    "gulp-mocha": "^2.2.0"
+  },
+  "dependencies": {
+    "underscore": "^1.8.3"
+  }
+}

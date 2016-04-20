@@ -1,11 +1,47 @@
 {
- "extends": "airbnb/base",
- "parserOptions": {
-        "ecmaVersion": 6,
-        "sourceType": "script"
-    },
+  "extends": "airbnb/base",
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "script"
+  },
   "rules": {
     "max-len": ["error", 120, 2],
-    "no-param-reassign": ["error", {"props":false}]
+    "no-param-reassign": 0,
+    "prefer-rest-params": 0,
+    "brace-style": [
+      "error",
+      "stroustrup",
+      {
+        "allowSingleLine": true
+      }
+    ],
+    "space-before-function-paren": [
+      "error",
+      {
+        "anonymous": "always",
+        "named": "never"
+      }
+    ],
+    "no-use-before-define": [
+      "error",
+      {
+        "functions": false,
+        "classes": false
+      }
+    ],
+    "spaced-comment": [
+      2,
+      "always",
+      {
+        "exceptions": [
+          "/"
+        ]
+      }
+    ],
+    "no-nested-ternary": 0,
+    "no-cond-assign": [
+      2,
+      "except-parens"
+    ]
   }
 }

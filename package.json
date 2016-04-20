@@ -24,6 +24,7 @@
     "gulp-mocha": "^2.2.0"
   },
   "dependencies": {
-    "underscore": "^1.8.3"
+    "underscore": "^1.8.3",
+    "roll20-wrapper": "^1.0.0"
   }
 }

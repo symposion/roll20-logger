@@ -1,6 +1,6 @@
 {
   "name": "roll20-logger",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "Logger object for roll20 that can handle tracing all method calls",
   "main": "./lib/logger.js",
   "scripts": {

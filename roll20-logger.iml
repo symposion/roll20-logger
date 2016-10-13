@@ -4,6 +4,5 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="roll20-logger node_modules" level="project" />
   </component>
 </module>
